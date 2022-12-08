@@ -1,0 +1,11 @@
+
+review--
+        --users
+
+  sql---->   CREATE TABLE `users` (
+              `id` int(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+              `username` varchar(100) NOT NULL,
+              `email` varchar(100) NOT NULL,
+              `comment` varchar(100)
+               )
+               ENGINE=InnoDB DEFAULT CHARSET=latin1;
