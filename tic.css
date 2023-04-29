@@ -1,0 +1,57 @@
+.container {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  h1 {
+    font-size: 48px;
+  }
+  
+  #size {
+    font-size: 24px;
+    margin-left: 10px;
+  }
+  
+  #start {
+    font-size: 24px;
+    margin-left: 10px;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #game {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 50px;
+    margin-left: 550px;
+    width: 400px;
+    height: 200px;
+  }
+  
+  #game div {
+    width: 70px;
+    height: 70px;
+    margin: 5px;
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 70px;
+    background-color: #eee;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #game div:hover {
+    background-color: #ddd;
+  }
+  
+  #message {
+    font-size: 36px;
+    font-weight: bold;
+    margin-top: 50px;
+  }
